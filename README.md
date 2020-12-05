@@ -10,6 +10,7 @@ Feedback and contributions are welcome!
 
 ## Table of Contents
 - [Intruduction of Neural Rendering](#intruduction-of-neural-rendering)
+- [Talks/tutorials](#Talks/tutorials)
 - [Related Surveys and Course Notes](#related-surveys-and-course-notes)
 - [Inverse Rendering](#inverse-rendering)
 - [Neural Rerendering](#neural-rerendering)
@@ -36,6 +37,9 @@ CVPR 2020 tutorial define **Neural Rendering** as
 > <p align="justify"> <i>Neural rendering is a new class of deep image and video generation approaches that enable explicit or implicit control of scene properties such as illumination, camera parameters, pose, geometry, appearance, and semantic structure. It combines generative machine learning techniques with physical knowledge from computer graphics to obtain controllable and photo-realistic outputs.</i></p>
 
 Given high-quality scene specifications, **Classic Rendering Methods** can render photorealistic images for a variety of complex real- world phenomena. Moreover, rendering gives us explicit editing control over all the elements of the scene—camera viewpoint, lighting, geometry and materials. However, building high-quality scene models, especially directly from images, requires significant manual effort, and automated scene modeling from images is an open research problem. On the other hand, **Deep Generative Networks** are now starting to produce visually compelling images and videos either from random noise, or conditioned on certain user specifications like scene segmentation and layout. However, they do not yet allow for fine-grained control over scene appearance and cannot always handle the complex, non-local, 3D interactions between scene properties. In contrast, neural rendering methods hold the promise of combining these approaches to enable controllable, high-quality synthesis of novel images from input images/videos. 
+
+## Talks/tutorials
+* [CVRP Tutorial](https://www.neuralrender.com/)
 
 ## Related Surveys and Course Notes
 
